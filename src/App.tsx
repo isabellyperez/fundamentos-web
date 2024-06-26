@@ -1,12 +1,14 @@
-import React from 'react';
-import Home from './paginas/home/Home';
-import './App.css';
-
+import React from 'react'
+import './App.css'
+import Home from './paginas/home/Home'
 
 function App() {
   return (
-   <Home />
-  );
+    <>
+      <Home titulo="home" texto="um texto aleatorio" cor="purple"/>
+    </>
+    
+  )
 }
 
-export default App;
+export default App
